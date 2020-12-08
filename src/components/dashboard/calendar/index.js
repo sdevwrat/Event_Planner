@@ -78,16 +78,6 @@ class Calendar extends React.Component {
       dateObject: this.state.dateObject.add(1, 'month')
     });
   };
-  getDates(startDate, stopDate) {
-    var dateArray = [];
-    var currentDate = moment(startDate);
-    var stopDate = moment(stopDate);
-    while (currentDate <= stopDate) {
-      dateArray.push(moment(currentDate).format("YYYY"));
-      currentDate = moment(currentDate).add(1, "year");
-    }
-    return dateArray;
-  }
   handleChange = (e) =>{
     this.setState({
       [e.target.name]:e.target.value
@@ -99,6 +89,7 @@ class Calendar extends React.Component {
     const {title,startDate,stopDate,desc,category,people} = this.state;
     this.props.addEvent({title,startDate,stopDate,desc,category,people});
     this.toggle();
+    this.setState({...this.eventState});
   }
   render() {
     let weekdayshortname = this.weekdays.map(day => {
@@ -146,8 +137,6 @@ class Calendar extends React.Component {
     });
 
     const {title,startDate,stopDate,desc,category,people} = this.state;
-
-    
 
     return (
       <div>
