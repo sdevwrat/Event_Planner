@@ -1,0 +1,50 @@
+
+  #navbar {
+    background: white;
+    color: rgb(13, 26, 38);
+    top: 0;
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+    margin-top: 40px;
+  }
+  
+  .nav-wrapper {
+    margin: auto;
+    text-align: center;
+    width: 85%;
+    padding-top: 12px;
+  }
+  
+  
+  .logo {
+    float: left;
+    font-size: 1.5em;
+    height: 60px;
+    letter-spacing: 1px;
+  } 
+  
+  #navbar .profile {
+    float: right;
+    list-style: none;
+    /* margin-right: 14px; */
+    margin-top: -2px;
+    text-align: right;
+  }
+
+  .profile .image {
+    position: relative;
+    width: 50px;
+    margin: 6px 0;
+    padding: 0;
+ }
+ .profile .image img {
+    border-radius: 50%;
+    background: #f5e8df;
+ }
+
+ .profile .name{
+   padding: 15px 0 0 0;
+   margin: 0;
+   font-size: 14px;
+ }

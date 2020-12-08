@@ -1,0 +1,46 @@
+.event-container{
+    margin-top: 30px;
+    width:260px;
+}
+
+.event-name{
+    margin-left: 5px;
+    padding-top: 12px;
+    z-index: 5;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 14px gray;
+    box-shadow: 0 0 14px gray;
+    margin-bottom: 10px;
+}
+.bullet{
+    height: 12px;
+    width: 10px;
+    border-radius: 50%;
+    margin-top: 12px;
+}
+.bi{
+    background-color: #95ecd6;
+}
+.np{
+    background-color: #f09e43;
+}
+.em{
+    background-color: #bd70f2;
+}
+.desc{
+    margin: 0;
+}
+
+.event-container .desc-head{
+    font-size: 14px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.desc-subhead{
+    color: gray;
+    font-size: 12px;
+}
+.dot-icon{
+    float: right;
+    color: gray;
+}

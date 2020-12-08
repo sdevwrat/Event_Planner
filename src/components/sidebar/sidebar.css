@@ -1,0 +1,41 @@
+
+#side-nav {
+     margin: 8px 0 0 10px;
+	 width: 90px;
+	 height: 100vh;
+	 display: flex;
+     flex-direction: column;
+	 position: fixed;
+	 top: 30px;
+     transition: all 0.5s;
+     border-radius: 10px;
+     box-shadow: 0px 0px 1px 1px white;
+	 z-index: 2;
+}
+
+#side-nav .nav-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.nav-link{
+    color: gray;
+    margin-bottom: 8px;
+}
+
+.logo{
+    margin-left: 12px;
+}
+.cog{
+    margin: 120px 0 0 16px;
+}
+
+ body #side-nav .nav-list .nav-link:hover {
+     background: red;
+     border-radius: 5px;
+     color: white;
+     cursor: pointer;
+}

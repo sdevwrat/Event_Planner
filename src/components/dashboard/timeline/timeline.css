@@ -1,0 +1,17 @@
+.timeline{
+    margin-left: 20px;
+    color:gray
+}
+
+
+.timeline td,.timeline th,.timeline tr {
+    min-width: 100px;
+    width: 100px;
+    border-right: 1px solid gray;
+    padding-right: 8px;
+    text-align: right;
+}
+
+.timeline td{
+    padding-left: 15px;
+}
