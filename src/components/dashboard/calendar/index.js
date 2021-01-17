@@ -8,7 +8,7 @@ import ChevronLeftCircleIcon from 'mdi-react/ChevronLeftCircleIcon';
 import PlusThickIcon from 'mdi-react/PlusThickIcon'; 
 import { addEvent } from "../../../actions/eventAction";
 
-const monthName = ['january',"February","March","April","May","June","July","August","September","October","November","December" ];
+const monthName = ['January',"February","March","April","May","June","July","August","September","October","November","December" ];
 const customStyles = {
   content : {
     top                   : '50%',

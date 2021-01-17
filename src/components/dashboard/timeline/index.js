@@ -2,7 +2,7 @@ import React from "react";
 import './timeline.css';
 import moment from "moment";
 import EventCard from '../eventCard';
-const monthName = ['january',"February","March","April","May","June","July","August","September","October","November","December" ];
+const monthName = ['January',"February","March","April","May","June","July","August","September","October","November","December" ];
 
 const rand = require('random-seed').create();
 
@@ -15,12 +15,20 @@ export default class Timeline extends React.Component {
     const today = parseInt(moment().format("D"));
     const month = moment().format("MMMM");
     const year = parseInt(moment().format("Y"));
+    const days_in_month = moment().daysInMonth()+1;
     let tableHead = [];
-    {for(var i=today;i<today+10;i++){
+    {
+      for(var i=today;i<Math.min(today+10,days_in_month);i++){
         tableHead.push(
             <th>{i}</th>
         )
-    }};
+    }
+    for(var i=1;i<=today+10-days_in_month;i++){
+      tableHead.push(
+          <th>{i}</th>
+      )
+    }
+  };
     let thisMonthEvent = this.props.events.filter(event => monthName[new Date(event.startDate).getMonth()] === month && new Date(event.startDate).getFullYear() === year);
     let tableBody = [];
     {for(let i=today;i<today+10;i++){
