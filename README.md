@@ -3,7 +3,7 @@
 <table>
 	<tr>
 		<td>
-			Event planner is a simple web-app where you can add diffrent types of events to the calendar and assign it to different people.
+			Event planner is a simple web-app made with ReactJs where you can add different types of events to the calendar and assign it to someone.
 		</td>
 	</tr>
 </table>
