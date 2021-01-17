@@ -10,7 +10,7 @@
 
 ## Demo
 
-[Here](https://mg-network.herokuapp.com/) is a working live demo.
+[Here](https://sdevwrat.github.io/Event_Planner/) is a working live demo.
 
 
 ##How to run this project
