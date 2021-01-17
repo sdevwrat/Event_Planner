@@ -1,4 +1,4 @@
-<h1 align="center"> Event Planner </h1> <br>
+<h1> Event Planner </h1> <br>
 
 <table>
 	<tr>
@@ -13,22 +13,11 @@
 [Here](https://mg-network.herokuapp.com/) is a working live demo.
 
 
-## Technologies Used
-- ReactJs
-- NodeJs
-- ExpressJs
-- MongoDB
-
-### APIs
-- [My Network API](https://github.com/sdevwrat/myNetwork_API) for Backend services
-- [Material UI](https://material-ui.com/guides/api/) for front end design
-
-
 ##How to run this project
 
 1.Clone the repo
 
-2.Go To my-network directory
+2.Go To Event_Planner directory
 
 3.Install dependencies using npm install
 
