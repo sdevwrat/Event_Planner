@@ -1,7 +1,7 @@
 {
   "name": "frank-plan",
   "version": "0.1.0",
-  "homepage": "https://sdevwrat.github.io",
+  "homepage": "https://sdevwrat.github.io/Event-Planner",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
