@@ -13,7 +13,7 @@
 [Here](https://sdevwrat.github.io/Event_Planner/) is a working live demo.
 
 
-##How to run this project
+## How to run this project
 
 1.Clone the repo
 
